@@ -1,0 +1,217 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Average+Sans&family=Open+Sans:ital,wght@0,500;1,400&family=Sansita+Swashed:wght@300&display=swap');
+
+.logo{
+    height: 60px;
+    width: 60px;
+}
+#item{
+    color: #ecdcdc;
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.main-container{
+    background-image: url(https://million-wallpapers.com/wallpapers/2/75/14271668683210940656/four-glasses-of-different-drinks.jpg);
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.cart-title-container{
+    color:rgb(13, 13, 14);
+    font-weight: bold;
+    padding-top: 300px;
+    
+}
+.cart-food-title{
+    font-weight: bold;
+    font-size: 60px;
+   font-family: serif;
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-style: italic;
+   
+}
+.cart-caption{
+    color: rgb(170, 34, 107);
+    font-size: 25px;
+    font-style: italic;
+}
+.button-custom{
+    background-image: linear-gradient(rgb(170, 35, 20),rgb(183, 188, 35),red);
+    height: 40px;
+    width: 140px;
+    border-radius:10px;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-width: 0;
+
+
+}
+.btn-order{
+    background-color: transparent;
+    height: 40px;
+    width: 140px;
+    border-color: rgb(36, 35, 35);
+    background-image:linear-gradient(rgb(158, 158, 233),rgb(209, 198, 198));
+    border-width: 0;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.wcu-title{
+    font-size: 25px;
+    color: #1c245c;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.whu-caption{
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #030841;
+    font-weight: bold;
+}
+.menu-cart{
+    margin: 20px;
+    padding: 10px;
+    border: solid;
+    background-color: white;
+    border-color:hsl(0, 56%, 98%);
+
+}
+.wcu-cart{
+    background-color: #fafafa;
+}
+.menu-cart-img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+.menu-cart-title{
+    color: #1c245c;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+.menu-cart-para{
+    color: #615f5f;
+    font-family: serif;
+
+}
+.cart-explore-menu{
+    background-color: hsl(0, 22%, 90%);
+}
+.explore-menu-title{
+    font-size: 25px;
+    color: #1c245c;
+    font-weight: bold;
+}
+.item-food-cart-img{
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    background-size: cover;
+}
+.item-food-container{
+    border: solid;
+    border-color: #ecdcdc;
+    background-color: white;
+    padding: 10px;
+    font-family: serif;
+    
+}
+.item-food-cart-title{
+    color: #1c215c;
+    font-size: 20px;
+    /* font-weight: bold; */
+    
+}
+.fresh-food-container-title{
+    color: #1c215c;
+    font-family: sans-serif;
+    font-size:30px ;
+    font-weight: bold;
+}
+.delivery-payment-cart{
+    background-color:#ffffff;
+    margin: 10px;
+
+}
+.delivery-payment-title{
+    color: #030841;
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+.fresh-food-container-paragraph{
+    color: #615f5f;
+    font-family: sans-serif;
+}
+.delivery-payment-para{
+    color: #615f5f;
+    font-family: sans-serif;
+
+}
+
+.gift-container{
+    background-image: radial-gradient(rgb(242, 242, 237),rgb(231, 209, 41));
+  
+}
+.gift-container-title{
+    color: #030841;
+    font-weight: bold;
+    padding-top: 20%;
+    /* padding-bottom: 20%; */
+}
+.gift-container-para{
+    color: #615f5f;
+    font-size: 20px;
+}
+.follow-us-container{
+    background-color: rgb(236, 236, 250);
+    height: 100vh;
+}
+.follow-us-container-title{
+   
+    color: #1c215c;
+    font-weight: bold;
+    font-weight: bold;
+    margin-top: 20%;
+    
+    
+    
+}
+.follow-us-icons{
+    background-color: rgb(208, 222, 222);
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 70%;
+   
+}
+#icons{
+    font-size: 40px;
+    color: rgb(240, 204, 24);
+    margin-left: 20px;
+}
+.footer-section{
+    background-color: #030841;
+
+}
+.footer-section-id{
+    color: rgb(180, 180, 13);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
