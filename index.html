@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My-food-projects</title>
+   
+    <script src="https://kit.fontawesome.com/f58ebf6891.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-right ">
+        <a class="navbar-brand" href="#"><img class="logo"
+            src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-restaurant-logo-design-vector-template-png-image_5441058.jpg" alt=""></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-link active" href="#wcuSection" id="item">why Choos Us <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#sectionExploremenu" id="item">Explore Menu</a>
+            <a class="nav-link" href="#delivermeu" id="item">Delivery and menu</a>
+            <a class="nav-link " href="#followus" tabindex="-1" aria-disabled="true" id="item">Follow Us</a>
+          </div>
+        </div>
+      </nav>
+      <div class="main-container">
+          <div class="cart-title-container  text-center">
+            <h1 class="cart-food-title "> A cold drink is the answer to most problm</h1>
+            <p class="cart-caption">Drink Smart and & Healthy</p>
+            <button class="button-custom btn-view"  >View Menu</button>
+
+            <button class=" btn-order"  type="submit" onclick="display('sectionExploremenu')" >order</button>
+
+          </div>
+
+      </div>
+      <div class="wcu-cart pt-5 pb-5" id="wcuSection">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <h1 class="wcu-title">Why Choose Us?</h1>
+                        <p class="whu-caption">
+                            We use both original recipes and classic versions of famous food items.
+                        </p>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="menu-cart pl-3 ml-3 text-center ">
+                            <img class="menu-cart-img mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7wfOWjJu-t0NZRVcCBSj7gAYxlIQWAUbWyQ&usqp=CAU" alt="">
+                            <h1 class="menu-cart-title">Nutrishion</h1>
+                            <p class="menu-cart-para">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="menu-cart pl-3 ml-3 text-center ">
+                            <img class="menu-cart-img mb-3" src="https://image.shutterstock.com/z/stock-vector-abstract-vector-logo-for-frozen-products-design-element-344597756.jpg" alt="">
+                            <h1 class="menu-cart-title">Fresh & qulity food</h1>
+                            <p class="menu-cart-para">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+                        </div>
+                    </div>
+                    <div class="col-6 col-md-4">
+                        <div class="menu-cart pl-3 ml-3 text-center ">
+                            <img class="menu-cart-img mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTjTmvcnbi2BdqKnlO37xM5NwoKxdVVoqV4zA&usqp=CAU" alt="">
+                            <h1 class="menu-cart-title">Food Service</h1>
+                            <p class="menu-cart-para">Experience fine dining at the comfort of your home. All our orders are carefully packed and arranged to give you the nothing less than perfect.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+      </div>
+      
+      <div class="cart-explore-menu pt-5 pb-5 " id="sectionExploremenu">
+          <div class="container">
+              <div class="row">
+                  <div class="col-12 co-md-12">
+                      <h1 class="explore-menu-title">Explore Menu</h1>
+                  </div>
+                  <div class="col-3 col-md-3">
+                      <div class="item-food-container text-center">
+                          <img class="item-food-cart-img mb-3" src="https://i.pinimg.com/custom_covers/222x/502644077100273365_1511009686.jpg" alt="">
+                          <h1 class="item-food-cart-title">Cool Drinks</h1>
+                          <a href="#" class="text-primary">View More 
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                              </svg>
+                          </a>
+                      </div>
+                  </div>
+                  <div class="col-3 col-md-3">
+                    <div class="item-food-container text-center">
+                        <img class="item-food-cart-img mb-3" src="https://nbtrangmanchclub.com/wp-content/uploads/2017/03/421534-523x346.jpg" alt="">
+                        <h1 class="item-food-cart-title">Ice-Cream</h1>
+                        <a href="#" class="text-primary">View More 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 col-md-3">
+                    <div class="item-food-container text-center">
+                        <img class="item-food-cart-img mb-3" src="https://i.ytimg.com/vi/iRr7jADrwws/maxresdefault.jpg" alt="">
+                        <h1 class="item-food-cart-title">Cold Coffe</h1>
+                        <a href="#" class="text-primary">View More 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3 col-md-3">
+                    <div class="item-food-container text-center">
+                        <img class="item-food-cart-img mb-3" src="https://c.ndtvimg.com/2018-10/ns2gb0kg_cucumber-water_625x300_19_October_18.jpg" alt="">
+                        <h1 class="item-food-cart-title">Natural Drinks</h1>
+                        <a href="#" class="text-primary">View More 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="item-food-container text-center">
+                        <img class="item-food-cart-img mb-3" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202105/watermelon-cooler_1200x768.jpeg?ljuI.4GAj_n4D_Yuqd_RiwsiCllZrmct&size=1200:675" alt="">
+                        <h1 class="item-food-cart-title">Cool Drinks</h1>
+                        <a href="#" class="text-primary">View More 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                              <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div> 
+                <div class="col-3 col-md-3">
+                  <div class="item-food-container text-center">
+                      <img class="item-food-cart-img mb-3" src="https://www.24mantra.com/wp-content/uploads/2019/04/5-cool-organic-recipes-to-try-this-summer.png" alt="">
+                      <h1 class="item-food-cart-title">Fruit- juice</h1>
+                      <a href="#" class="text-primary">View More 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-3 col-md-3">
+                  <div class="item-food-container text-center">
+                      <img class="item-food-cart-img mb-3" src="https://upload.wikimedia.org/wikipedia/commons/1/17/Vinoteca,_Smithfield,_London_(4485849609).jpg" alt="">
+                      <h1 class="item-food-cart-title">Cold Coffe</h1>
+                      <a href="#" class="text-primary">View More 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+              <div class="col-3 col-md-3">
+                  <div class="item-food-container text-center">
+                      <img class="item-food-cart-img mb-3" src="https://rukminim2.flixcart.com/image/416/416/l0cr4i80/syrup/z/y/k/250-1-summer-berries-100-natural-makes-10-15-drinks-swa-original-imagc5yxmzjwcx5h.jpeg?q=70" alt="">
+                      <h1 class="item-food-cart-title">Natural Drinks</h1>
+                      <a href="#" class="text-primary">View More 
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                          </svg>
+                      </a>
+                  </div>
+              </div>
+
+              <div class="col-3 col-md-3">
+                <div class="item-food-container text-center">
+                    <img class="item-food-cart-img mb-3" src="https://i0.wp.com/foodandflair.com/wp-content/uploads/2019/04/Strawberry-Salad-Overhead.jpg?resize=720%2C720&ssl=1" alt="">
+                    <h1 class="item-food-cart-title">Cool Drinks</h1>
+                    <a href="#" class="text-primary">View More 
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                          <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="col-3 col-md-3">
+              <div class="item-food-container text-center">
+                  <img class="item-food-cart-img mb-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXzdjwrKS_nT-M25rvfDnBhBErXyCPo2KWlA&usqp=CAU" alt="">
+                  <h1 class="item-food-cart-title">summer solid food</h1>
+                  <a href="#" class="text-primary">View More 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                      </svg>
+                  </a>
+              </div>
+          </div>
+          <div class="col-3 col-md-3">
+              <div class="item-food-container text-center">
+                  <img class="item-food-cart-img mb-3" src="https://img.huffingtonpost.com/asset/5cd029ee23000065019e5798.jpeg?ops=1778_1000" alt="">
+                  <h1 class="item-food-cart-title">Summmer</h1>
+                  <a href="#" class="text-primary">View More 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                      </svg>
+                  </a>
+              </div>
+          </div>
+          <div class="col-3">
+              <div class="item-food-container text-center">
+                  <img class="item-food-cart-img mb-3" src="https://c.ndtvimg.com/2020-05/inr9r43o_curd-rice_625x300_29_May_20.jpg" alt="">
+                  <h1 class="item-food-cart-title">summer solid food</h1>
+                  <a href="#" class="text-primary">View More 
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                      </svg>
+                  </a>
+              </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+    <div class="fresh-food-container pt-5 pb-5" id="freshfood">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <img class="fresh-food-container-img w-25" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAbef4E68LCx-Yz4_2ssT21ZJe2E095chY3epCXauUH-9LYECKEjRkcoiPk0ysXSr4uyY&usqp=CAU" alt="">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjbcTPNpz8sjcsB0Y2IkVq-begcmVZ4nWMgw&usqp=CAU" alt="">
+                </div>
+                <div class="col-6">
+                    <h1 class="fresh-food-container-title">Fresh, Healthy, Organic, liquids juices</h1>
+                    <p class="fresh-food-container-paragraph">Say no to harmful chemicals and go fully organic with our range of fresh fruits and veggies. Pamper your body and your senses with the true and unadulterated gifts from mother nature. with the true and unadulterated gifts from mother nature.</p>
+                    <button class="button-custom btn-view" dsplay="">Watch Vidio
+                        
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="delivery-payment-cart pt-5 pb-5" id="delivermeu">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h1 class="delivery-payment-title">Delivery and Payment</h1>
+                    <p class="delivery-payment-para">Delivery and Payment
+                        Enjoy hassle-free payment with the plenitude of payment options available for you. Get live tracking and locate your food on a live map. It's quite a sight to see your food arrive to your door. Plus, you get a 5% discount on every order every time you pay online.</p>
+                        <button class="button-custom btn-view">Order Now</button>
+                        <div class="mt-3">
+                            <img class="delivery-payment-logo w-25" src="https://vinron.in/wp-content/uploads/2021/07/Phone-pe-logo.png" alt="">
+                            <img class="delivery-payment-logo w-25" src="https://pbs.twimg.com/profile_images/1417834595899232256/YzltM_gk_400x400.png" alt="">
+                            <img class="delivery-payment-logo w-25"  src="https://i.pinimg.com/474x/72/28/ab/7228ab788ca60f708275b6d7aea5f7be.jpg" alt="">
+                        </div>
+                </div>
+                <div class="col-6">
+                    <!-- <img class="w-50" src="data:image/jpeg;base64,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" alt=""> -->
+                    <img class="w-50" src="https://st.depositphotos.com/1605004/3264/v/950/depositphotos_32646827-stock-illustration-25-percent-discount-label.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+    </div>
+   
+        
+        
+       
+    </div>
+    <div class="gift-container pt-5 pb-5 text-center m-3 ">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="gift-container-title ">Thank you for being a valuable customer to us.</h1>
+                    <p class="gift-container-para">We have a surprise gift for you</p>
+                     <!-- Button trigger modal -->
+                     <button type="button" class="button-custom btn-view mb-3" data-toggle="modal" data-target="#exampleModal">
+                        Reddem Gift
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                            </div>
+                            <div class="modal-body">
+                            <img class="w-100" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/gift-voucher-design-template-da903f35405cc5ff968970e1e7e2747b_screen.jpg?ts=1608216940" alt="">
+                            </div>
+                            <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                           
+                            </div>
+                        </div>
+                    </div>
+                
+                </div>
+            
+        
+                <div class="text-center">
+                    <img class="w-25" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/thanking-customers-section-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="follow-us-container text-center pt-5 pb-5" id="followus">
+      <div class="container">
+          <div class="row">
+            <div class="col-12 ">
+                <h1 class="follow-us-container-title mb-3">Follow Us</h1>
+                <i class="fa-brands fa-twitter mr-5" id="icons"></i>
+                <i class="fa-brands fa-facebook mr-5" id="icons"></i>
+                <i class="fa-brands fa-instagram mr-5" id="icons"></i>
+    
+          
+          
+            </div>
+          </div>
+      </div>
+    </div>
+   <div class="footer-section pt-5 pb-5 text-center">
+       <div class="container">
+           <div class="row">
+               <div class="col-12">
+                   <img class="logo mb-3" src="https://png.pngtree.com/png-clipart/20200727/original/pngtree-restaurant-logo-design-vector-template-png-image_5441058.jpg" alt="">
+                   <h1 class="footer-section-id mb-3">Resterant2food@.com</h1>
+                   <p class="footer-section-id"> Floor no-3,bangulore,560093</p>
+               </div>
+           </div>
+       </div>
+
+   </div>
+   <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+</html>
